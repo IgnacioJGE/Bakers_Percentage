@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "375611494780",
+    "project_id": "bakers-percentage1",
+    "storage_bucket": "bakers-percentage1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:375611494780:android:dda3225697a9b1b63a94f9",
+        "android_client_info": {
+          "package_name": "com.example.bakers_percentage"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMAQ5std1UkWvPn0buJiqQ1XLkuuJp174"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

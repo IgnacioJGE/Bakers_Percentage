@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/borde"
+    android:layout_gravity="center"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="35dp"
+            android:background="?selectableItemBackground"
+            android:text=""
+            android:textColor="@color/black"
+            android:gravity="start"
+            android:layout_marginEnd="5dp">
+        </Button>
+        <Button
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/baseline_edit_24"
+            android:layout_marginEnd="5dp">
+
+        </Button>
+        <Button
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:background="@drawable/baseline_share_24"
+            android:layout_marginEnd="5dp">
+
+        </Button>
+    </LinearLayout>
+
+
+</LinearLayout>
