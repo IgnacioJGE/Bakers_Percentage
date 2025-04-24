@@ -19,7 +19,7 @@
             android:name=".Editar_receta"
             android:exported="false" />
         <activity
-            android:name=".Editar_Guardar"
+            android:name=".Guardar_receta"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
