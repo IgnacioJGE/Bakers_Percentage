@@ -88,7 +88,7 @@ class Guardar_receta : AppCompatActivity() {
             openFileOutput(nombrearchivo, MODE_PRIVATE).use { output ->
                 output.write(jsonreceta.toByteArray())
             }
-            Toast.makeText(this, "Recipe saved as $nombrearchivo", Toast.LENGTH_SHORT).show()
+            finish()
         } catch (e: Exception) {
             Toast.makeText(this, "Error saving the recipe", Toast.LENGTH_SHORT).show()
             e.printStackTrace()

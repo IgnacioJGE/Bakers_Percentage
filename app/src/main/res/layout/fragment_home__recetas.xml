@@ -69,7 +69,6 @@
             android:gravity="center"
             android:orientation="vertical">
 
-            <include layout="@layout/receta_basica"/>
         </LinearLayout>
     </ScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
